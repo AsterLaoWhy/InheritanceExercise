@@ -2,10 +2,10 @@
 
 public class Reptile : Animal
 {
-    public bool hasScales { get; set; }
-    public bool isColdBlooded { get; set; }
-    public bool isVenomous { get; set; }
-    public bool hasLegs { get; set; }
+    public bool HasScales { get; set; }
+    public bool IsColdBlooded { get; set; }
+    public bool IsVenomous { get; set; }
+    public bool HasLegs { get; set; }
     public Reptile()
 	{
 	}

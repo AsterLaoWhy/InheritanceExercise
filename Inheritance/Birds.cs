@@ -2,10 +2,10 @@
 
 public class Bird:Animal
 {
-    public bool hasFeathers { get; set; }
-    public bool canFly { get; set; }
-    public string cry { get; set; }
-    public bool isNocturnal { get; set; }
+    public bool HasFeathers { get; set; }
+    public bool CanFly { get; set; }
+    public string Cry { get; set; }
+    public bool IsNocturnal { get; set; }
     public Bird()
 	{
 	}

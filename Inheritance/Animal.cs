@@ -2,10 +2,10 @@
 
 public class Animal
 {
-    public bool hasEyes { get; set; }
-    public bool isHeterotrophic { get; set; }
-    public string reproductionType { get; set; }
-    public bool hasCellWalls { get; set; }
+    public bool HasEyes { get; set; }
+    public bool IsHeterotrophic { get; set; }
+    public string ReproductionType { get; set; }
+    public bool HasCellWalls { get; set; }
     public Animal()
 	{
 		

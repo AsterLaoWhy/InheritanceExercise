@@ -5,7 +5,7 @@ namespace Inheritance
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // TODO Be sure to follow best practice when creating your classes
 
@@ -21,36 +21,32 @@ namespace Inheritance
             // give this class 4 members that are specific to Reptile Done
             // Set this class to inherit from your Animal Class Done
 
-
-
-            void main() 
-            {
                 var hedwig = new Bird();
-                hedwig.isNocturnal = true;
-                hedwig.canFly = true;
-                hedwig.cry = "I'll always save you Harry";
-                hedwig.hasFeathers = true;
-                hedwig.hasEyes = true;
-                hedwig.isHeterotrophic = true;
-                hedwig.reproductionType = "Eggs";
-                hedwig.hasCellWalls = false;
-                Console.WriteLine($"Hedwig is a bird from Harry Potter. It's {hedwig.isNocturnal} she is nocturnal and {hedwig.hasEyes} she has eyes.\n It's also {hedwig.canFly} she can fly and {hedwig.hasFeathers} she has feathers. \n" +
-                    $" It's {hedwig.isHeterotrophic} she needs a male owl and has babies from {hedwig.reproductionType}. \n It's {hedwig.hasCellWalls} her cells have cell walls. Her line in the books is {hedwig.cry}. \n");
+                hedwig.IsNocturnal = true;
+                hedwig.CanFly = true;
+                hedwig.Cry = "I'll always save you Harry";
+                hedwig.HasFeathers = true;
+                hedwig.HasEyes = true;
+                hedwig.IsHeterotrophic = true;
+                hedwig.ReproductionType = "Eggs";
+                hedwig.HasCellWalls = false;
+                Console.WriteLine($"Hedwig is a bird from Harry Potter. It's {hedwig.IsNocturnal} she is nocturnal and {hedwig.HasEyes} she has eyes.\n It's also {hedwig.CanFly} she can fly and {hedwig.HasFeathers} she has feathers. \n" +
+                    $" It's {hedwig.IsHeterotrophic} she needs a male owl and has babies from {hedwig.ReproductionType}. \n It's {hedwig.HasCellWalls} her cells have cell walls. Her line in the books is {hedwig.Cry}. \n");
 
 
                 var nagini = new Reptile();
-                nagini.hasScales = true;
-                nagini.isColdBlooded = true;
-                nagini.isVenomous = true;
-                nagini.hasLegs = false;
-                nagini.hasEyes = true;
-                nagini.isHeterotrophic = true;
-                nagini.reproductionType = "Eggs";
-                nagini.hasCellWalls = false;
-                Console.WriteLine($"Nagini is a snake from Harry Potter. It's {nagini.hasScales} she has scales and {nagini.hasEyes} she has eyes.\n It's also {nagini.isVenomous} her bite can send the little prince back home" +
-                    $" and {nagini.hasLegs} she has legs -\n despite running in to protect Voldemort (Tom Elvis Jedusor haha).\n It's {nagini.isHeterotrophic} she needs a male snake and has babies from {hedwig.reproductionType} that aren't scrambled" +
-                    $".\n It's {nagini.hasCellWalls} her cells have cell walls. Despite giving her life to save someone from the jailhouse rock, it's {nagini.isColdBlooded} she is cold blooded.");
-            }
+                nagini.HasScales = true;
+                nagini.IsColdBlooded = true;
+                nagini.IsVenomous = true;
+                nagini.HasLegs = false;
+                nagini.HasEyes = true;
+                nagini.IsHeterotrophic = true;
+                nagini.ReproductionType = "Eggs";
+                nagini.HasCellWalls = false;
+                Console.WriteLine($"Nagini is a snake from Harry Potter. It's {nagini.HasScales} she has scales and {nagini.HasEyes} she has eyes.\n It's also {nagini.IsVenomous} her bite can send the little prince back home" +
+                    $" and {nagini.HasLegs} she has legs -\n despite running in to protect Voldemort (Tom Elvis Jedusor haha).\n It's {nagini.IsHeterotrophic} she needs a male snake and has babies from {nagini.ReproductionType} that aren't scrambled" +
+                    $".\n It's {nagini.HasCellWalls} her cells have cell walls. Despite giving her life to save someone from the jailhouse rock, it's {nagini.IsColdBlooded} she is cold blooded.");
+
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class DONE
              *  
@@ -62,7 +58,8 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
-            main();
+
+
             Console.ReadLine();
         }
     }
